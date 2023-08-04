@@ -1,0 +1,12 @@
+.bg-img{
+background-image: url(./../img/paladins.b44d33d6e7ee1ba8.png);
+background-position: center center;
+background-size: cover;
+}
+.card{
+    cursor: pointer;
+    transition: all .5s;
+}
+.card:hover {
+    scale: 1.1;
+}

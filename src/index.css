@@ -1,13 +1,42 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root{
+    --main-color: #272b30
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+    background-color: var(--main-color);
+    color: #aaa;
+}
+input{
+    background-color: #1c1e22 !important;
+    border: 0 solid rgba(0,0,0,.6) !important;
+    border-radius: 5px !important;
+    color: #aaa !important;
+}
+.cursor-pointer{
+    cursor:pointer;
+}
+#slider img{
+    width: 50%;
+}
+h5{
+    color: white;
+}
+button{
+    color: white;
+    background-color: #3a3f44;
+    border-color: #22241d;
+}
+.register-section{
+    background-color: #32383e;
+}
+.card-body{
+    background-color:#32383e ;
+}
+.offline{
+    background-color: rgb(255, 83, 83);
+    color: white;
+    border: #1c1e22;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    
 }
